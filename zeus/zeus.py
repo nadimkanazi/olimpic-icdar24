@@ -6,7 +6,8 @@ import json
 import os
 import pickle
 import re
-from typing import Self
+#from typing import Self
+from typing_extensions import Self
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "2")  # Report only TF errors by default
 
 import numpy as np
